@@ -23,6 +23,9 @@ gem 'rack-cors'
 # Use Devise for User Management
 gem 'devise'
 
+# Use JSON Web Tokens for Authentication
+gem 'jwt'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
