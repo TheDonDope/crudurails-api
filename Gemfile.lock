@@ -40,6 +40,7 @@ GEM
       tzinfo (~> 1.1)
     arel (7.1.2)
     bcrypt (3.1.11)
+    bcrypt (3.1.11-x64-mingw32)
     builder (3.2.2)
     byebug (9.0.6)
     concurrent-ruby (1.0.2)
@@ -53,6 +54,9 @@ GEM
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
+    jsonapi-resources (0.8.1)
+      concurrent-ruby
+      rails (>= 4.0)
     jwt (1.5.6)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
@@ -132,6 +136,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   devise
+  jsonapi-resources
   jwt
   pg (~> 0.18)
   puma (~> 3.0)
